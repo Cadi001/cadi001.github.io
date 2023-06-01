@@ -73,11 +73,11 @@
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-2">
+				<div class="col-2">
 					<!-- <div  id="fh5co-logo"><a class="text-brown" href="index.html">Wedding<strong>.</strong></a></div> -->
-					<img src="images/logo.png" width="50%">
+					<img src="images/logo.png" width="12%">
 				</div>
-				<div class="col-xs-10 text-right menu-1">
+				<div class="col-10 text-right menu-1">
 					<ul>
 						<li class="active"><a href="index.html">Home</a></li>
 						<!-- <li><a href="about.html">Story</a></li>
@@ -132,30 +132,34 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h2 class="text-brown">Hello!</h2>
-					<h3>June 17th, 2023 Sameera Clubhouse, Sapalibutad, Angeles City,Pampanga, 2009</h3>
-					<p>We invited you to celebrate our wedding</p>
+					<h3>You are invited to join the love and marriage</h3>
+					<p>Save The Date</p>
+					<p class="lead">June 17th 2023</p>					
 				</div>
 			</div>
-			<div class="couple-wrap animate-box">
-				<div class="couple-half">
-					<div class="groom">
-						<img src="images/aldwin.jpg" alt="groom" class="img-responsive">
+		
+			<div class="couple-wrap animate-box row">
+					<div class="couple-half col-md-6">
+						<div class="groom">
+							<img src="images/aldwin.jpg" alt="groom" class="img-responsive">
+						</div>
+						<div class="desc-groom">
+							<h3 class="text-brown">Aldwin Nunag</h3>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae pariatur labore, deserunt repellat repudiandae ducimus officiis? Tempora natus quas et!</p>
+						</div>
 					</div>
-					<div class="desc-groom" style="margin: 40%;">
-						<h3 class="text-brown">Aldwin Nunag</h3>
-						<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae pariatur labore, deserunt repellat repudiandae ducimus officiis? Tempora natus quas et!</p> -->
-					</div>
-				</div>
-				
-				<div class="couple-half">
+					
+				<div class="couple-half col-md-6 ">
 					<div class="bride">
 						<img src="images/ely.png" alt="bride" class="img-responsive">
 					</div>
 					<div class="desc-bride">
 						<h3 class="text-brown">Elydia Nunag</h3>
-						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis sit reiciendis alias cumque. Nam corporis mollitia quis, aut odio obcaecati!</p> -->
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis sit reiciendis alias cumque. Nam corporis mollitia quis, aut odio obcaecati!</p>
 					</div>
+		
 				</div>
+			</div>
 			</div>
 		</div>
 	</div>
@@ -641,8 +645,8 @@
 	<script src="js/main.js"></script>
 
 	<script>
-    // var d = new Date(1685492946419 + 110 * 110 * 110 * 1118.448);
-	console.log(new Date(1685492946419 + 110 * 110 * 110 * 1118.448));
+    var d = new Date(new Date("Jun 23, 2023 14:00:00").getTime());
+	console.log(d);
 
     // default example
     simplyCountdown('.simply-countdown-one', {
